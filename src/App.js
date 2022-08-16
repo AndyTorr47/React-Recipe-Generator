@@ -31,7 +31,7 @@ function createMeal(meal) {
 
     <p><strong>Category:</strong> ${meal.strCategory}
     <strong>Area:</strong> ${meal.strArea}
-    <strong>Tags:</strong> ${meal.strTags.split(",").join(", ")}</p>
+    <strong>Tags:</strong> ${meal.strTags}</p>
 
     <h5>Ingredients</h5>
     <ul>
