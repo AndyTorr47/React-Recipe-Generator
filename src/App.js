@@ -12,7 +12,7 @@ getMealBtn.addEventListener("click", () => {
 
 function createMeal(meal) {
   const ingredients = [];
-  for (i = 1; i <= 20; i++) {
+  for (let i = 1; i <= 20; i++) {
     if (meal[`strIngredient${i}`]) {
       ingredients.push(
         `${meal[`strIngredient${i}`]} -
@@ -22,7 +22,6 @@ function createMeal(meal) {
       break;
     }
   }
-  console.log(ingredients);
 
   document.getElementById("get_meal").innerHTML = `
     <div class="row>
