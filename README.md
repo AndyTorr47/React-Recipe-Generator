@@ -1,4 +1,6 @@
-# Recipe-Generator
+# Recipe-Generator 
+## Fetch API to generate random recipes
+
 First, clone the repo to be able to view app locally:
 
 https://github.com/AndyTorr47/React-Recipe-Generator.git
